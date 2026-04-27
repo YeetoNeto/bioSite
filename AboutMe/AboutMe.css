@@ -1,0 +1,23 @@
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.image-block {
+
+    float: right;
+    width: 200px;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+.image-block img {
+    width: 100%;
+}
+
+.caption {
+    margin-top: 1%;
+    font-size: 14px;
+}

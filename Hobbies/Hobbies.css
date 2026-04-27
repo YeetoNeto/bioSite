@@ -1,0 +1,29 @@
+#Hobby1{
+    margin-left: 6%;
+}
+.indent{
+    margin-left: 8%;
+}
+#Golf-Images {
+    display: flex;
+    justify-content: space-between; /* pushes them to edges */
+    align-items: center;
+    
+}
+
+#Golf-Images img {
+    width: 300px;
+    height: auto;
+}
+
+#Hobby2{
+    margin-right: 6%;
+    float:right;
+}
+.center-img {
+    padding: 10%;
+    display: block;
+    margin: 0 auto;   /* centers horizontally */
+    width: 300px;
+    height: auto;
+}

@@ -1,0 +1,61 @@
+#topbar {
+    background-color: #3696d6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 15px solid #1f3a5f;
+}
+
+#topbar h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 10px;
+}
+
+#navbar a:hover {
+    background-color: #f2f2f2;
+    color: #1f3a5f;
+}
+
+#navbar span {
+    color: white;
+}
+
+.section {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+    align-items: flex-start;
+}
+
+/* pushes whole block to the right side */
+.section.right {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+/* image styling */
+.float-img {
+    width: 200px;
+    height: auto;
+}
+
+/* makes text behave nicely */
+.section p {
+    max-width: 400px;
+    line-height: 1.6;
+}

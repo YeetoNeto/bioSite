@@ -1,29 +1,36 @@
 #Hobby1{
     margin-left: 6%;
+    width: 50%;
 }
 .indent{
-    margin-left: 8%;
+    margin-left: 2%;
 }
 #Golf-Images {
     display: flex;
-    justify-content: space-between; /* pushes them to edges */
+    box-sizing: border-box;
+    gap: 20%; /* pushes them to edges */
     align-items: center;
-    
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 #Golf-Images img {
-    width: 300px;
+    width: 500px;
     height: auto;
 }
 
 #Hobby2{
     margin-right: 6%;
     float:right;
+    width: 50%;
+    padding-top: 20px;
+    padding-right: 10%;
 }
 .center-img {
-    padding: 10%;
     display: block;
     margin: 0 auto;   /* centers horizontally */
-    width: 300px;
+    width: 500px;
     height: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }

@@ -1,10 +1,18 @@
 #topbar {
-    background-color: #3696d6;
+    background-color: #F205CB;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    border-bottom: 15px solid #1f3a5f;
+    border-bottom: 15px solid #F2059F;
+}
+
+.container{
+    padding-top: 20px;
+}
+img{
+    background-color: #f27B13;
+    padding: 1%;
 }
 
 #topbar h1 {
@@ -12,12 +20,14 @@
     font-weight: 400;
     font-size: 30px;
     margin: 0;
+    background-color: transparent;
 }
 
 #navbar {
     display: flex;
     align-items: center;
     gap: 10px;
+    font-size: large;
 }
 
 #navbar a {
@@ -33,6 +43,28 @@
 
 #navbar span {
     color: white;
+}
+h1{
+    background-color: #f2d544;
+    color: #050706;
+    display: inline-block;
+}
+h2{
+    background-color: #f2d544;
+    color: #050706;
+    display: inline-block;
+}
+
+body{
+    background-color: #0D0007;
+}
+
+p{
+    background-color: #f2d544;
+    color: #050706;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
 }
 
 .section {
@@ -58,4 +90,40 @@
 .section p {
     max-width: 400px;
     line-height: 1.6;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 20px; /* height of the footer */
+}
+
+.content{
+    flex: 1;
+}
+
+footer {
+    background-color: #F205CB;
+    width: 100%;
+    padding: 10px;
+}
+
+footer p {
+    color: white;
+    background-color: transparent;
+    font-weight: 400;
+    text-align: right;
+    padding-right: 10px;
+    font-style: italic;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }

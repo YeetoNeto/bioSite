@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Outrun-Future';
-    src: url('Fonts/outrun_future/outrun-future.otf') format('opentype');
+    src: url('Fonts/outrun_future/Outrun-future.otf') format('opentype');
 }
 @font-face {
     font-family: 'Jost-Bold';
@@ -75,14 +75,16 @@ img{
     color: white;
 }
 h1{
-    background-color: #f2d544;
-    color: #050706;
+    color: #f2d544;
     display: inline-block;
     font-family: 'Outrun-Future', sans-serif;
 }
 h2{
-    background-color: #f2d544;
-    color: #050706;
+    color: #F205CB;
+    text-shadow: 
+        0 0 5px #F2059F,
+        0 0 10px #F2059F,
+        0 0 20px #00ffff;
     display: inline-block;
     font-family: 'Jost-SemiBold', sans-serif;
 }
@@ -93,15 +95,15 @@ body{
 }
 
 ul{
-    background-color: #f2d544;
+    color: #f2d544;
     font-size: 18px;
     display: inline-block;
     font-family: 'Jost-Regular', sans-serif;
 }
 
 p{
-    background-color: #f2d544;
-    color: #050706;
+    background-color: #BD5A02;
+    color: #FFFFFF;
     font-size: 18px;
     text-align: center;
     display: inline-block;
@@ -156,7 +158,6 @@ footer p {
     color: white;
     background-color: transparent;
     font-weight: 400;
-    text-align: right;
     padding-right: 10px;
     font-style: italic;
 }

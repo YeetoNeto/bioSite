@@ -36,6 +36,12 @@ h2{
    display: initial;
 }
 
+
 p{
+    background-color: transparent;
+    color: #f2d544;
+    font-size: 18px;
+    text-align: center;
     display: initial;
+    font-family: 'Jost-Regular', sans-serif;
 }

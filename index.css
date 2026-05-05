@@ -1,3 +1,27 @@
+@font-face {
+    font-family: 'Outrun-Future';
+    src: url('Fonts/outrun_future/outrun-future.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Jost-Bold';
+    src: url('Fonts/Jost/static/Jost-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Jost-Regular';
+    src: url('Fonts/Jost/static/Jost-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Jost-SemiBold';
+    src: url('Fonts/Jost/static/Jost-SemiBold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Jost-SemiBoldItalic';
+    src: url('Fonts/Jost/static/Jost-SemiBoldItalic.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Jost-Italic';
+    src: url('Fonts/Jost/static/Jost-Italic.ttf') format('truetype');
+}
 #topbar {
     background-color: #F205CB;
     display: flex;
@@ -21,6 +45,10 @@ img{
     font-size: 30px;
     margin: 0;
     background-color: transparent;
+    text-shadow: 
+        0 0 5px #ff00cc,
+        0 0 10px #ff00cc,
+        0 0 20px #00ffff;
 }
 
 #navbar {
@@ -28,6 +56,7 @@ img{
     align-items: center;
     gap: 10px;
     font-size: large;
+    font-family: 'Jost-Bold', sans-serif;
 }
 
 #navbar a {
@@ -37,8 +66,9 @@ img{
 }
 
 #navbar a:hover {
-    background-color: #f2f2f2;
-    color: #1f3a5f;
+    background-color: #800152;
+    color: #f2d544;
+    border-radius: 5px;
 }
 
 #navbar span {
@@ -48,15 +78,25 @@ h1{
     background-color: #f2d544;
     color: #050706;
     display: inline-block;
+    font-family: 'Outrun-Future', sans-serif;
 }
 h2{
     background-color: #f2d544;
     color: #050706;
     display: inline-block;
+    font-family: 'Jost-SemiBold', sans-serif;
 }
 
 body{
     background-color: #0D0007;
+    font-family: 'Jost-Regular', sans-serif;
+}
+
+ul{
+    background-color: #f2d544;
+    font-size: 18px;
+    display: inline-block;
+    font-family: 'Jost-Regular', sans-serif;
 }
 
 p{
@@ -65,7 +105,9 @@ p{
     font-size: 18px;
     text-align: center;
     display: inline-block;
+    font-family: 'Jost-Regular', sans-serif;
 }
+
 
 .section {
     display: flex;
@@ -74,19 +116,18 @@ p{
     align-items: flex-start;
 }
 
-/* pushes whole block to the right side */
+
 .section.right {
     justify-content: flex-end;
     text-align: right;
 }
 
-/* image styling */
 .float-img {
-    width: 200px;
+    width: 600px;
     height: auto;
 }
 
-/* makes text behave nicely */
+
 .section p {
     max-width: 400px;
     line-height: 1.6;
@@ -97,7 +138,7 @@ p{
     flex-direction: column;
     min-height: 100vh;
     position: relative;
-    padding-bottom: 20px; /* height of the footer */
+    padding-bottom: 20px; 
 }
 
 .content{
@@ -108,6 +149,7 @@ footer {
     background-color: #F205CB;
     width: 100%;
     padding: 10px;
+    font-family: 'Jost-SemiBoldItalic', sans-serif;
 }
 
 footer p {
